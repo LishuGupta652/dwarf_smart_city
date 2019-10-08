@@ -16,7 +16,7 @@ const About = () => {
       <ul class="collapsible z-depth-2">
         <li>
           <div class="collapsible-header">
-            <i class="material-icons">filter_drama</i>About Dwarf Inc.
+            <h5>About Dwarf Inc.</h5>
           </div>
           <div class="collapsible-body">
             <span>
@@ -31,7 +31,7 @@ const About = () => {
         </li>
         <li>
           <div class="collapsible-header">
-            <i class="material-icons">place</i>Our Missions
+            <h5>Our Mission</h5>
           </div>
           <div class="collapsible-body">
             <span>
@@ -43,7 +43,7 @@ const About = () => {
         </li>
         <li>
           <div class="collapsible-header">
-            <i class="material-icons">whatshot</i>Our Products.
+            <h5>Our Products</h5>
           </div>
           <div class="collapsible-body">
             <span>
