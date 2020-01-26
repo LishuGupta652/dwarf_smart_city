@@ -30,7 +30,6 @@ const Navigation = styled.header`
     text-decoration: none;
 
     p {
-      width: 500px;
       display: block;
       color: blue;
       font-size: 28px;
@@ -56,14 +55,13 @@ const Navigation = styled.header`
     color: blue;
   }
   a {
-    color: blue;
     opacity: 0.55;
     transition: all 0.6s;
     color: #222;
     font-size: 1em;
   }
   a:hover {
-    opacity: 1;
+    opacity: 0.8;
   }
   .fa-bars {
     display: none;
@@ -99,6 +97,11 @@ const Navigation = styled.header`
       padding-left: 15px;
       padding-top: 0px !important;
     }
+    .logo a {
+      p {
+        height: 10px;
+      }
+    }
   }
   @media only screen and (max-width: 600px) {
     height: auto;
@@ -111,13 +114,13 @@ const Navigation = styled.header`
       margin: 0px;
       margin-left: -5px;
       a {
-        padding: 20px 0px;
+        padding: 0px 0px;
       }
     }
     .fa-bars {
       display: inline-block;
       position: absolute;
-      top: 50px;
+      top: 33px;
       right: 30px;
       cursor: pointer;
     }
@@ -127,6 +130,7 @@ const Navigation = styled.header`
       flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
+      align-items: center;
 
       overflow: hidden;
       max-height: 0;
