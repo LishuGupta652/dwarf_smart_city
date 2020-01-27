@@ -1,0 +1,15 @@
+.card-contact p {
+  font-size: 25px;
+}
+
+.margin-gap {
+  min-height: 600px;
+}
+@media (max-width: 768px) {
+  .card-contact p {
+    font-size: 18px;
+  }
+  .margin-gap {
+    min-height: auto;
+  }
+}

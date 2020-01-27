@@ -3,12 +3,12 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <div className="container" style={{ minHeight: "100vh" }}>
+      <div className="container margin-gap">
         <h2 className="center">Contact Us</h2>
 
         <hr />
 
-        <div className="center">
+        <div className="center card-contact">
           <div class="row ">
             <div class="col s12 m12">
               <div class="card">
@@ -22,12 +22,7 @@ const Contact = () => {
                 </div>
 
                 <div class="card-content center">
-                  <div
-                    style={{
-                      "font-size": "22px",
-                      "font-family": "uppercase"
-                    }}
-                  >
+                  <div>
                     <p>
                       Name :
                       <a style={{ color: "#444" }} target="_top">
@@ -44,7 +39,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div class="card-action">
-                  <a href="mail-to:comm.dwarf@gmail.com">
+                  <a href="mailto:comm.dwarf@gmail.com">
                     Email : comm.dwarf@gmail.com
                   </a>
                 </div>

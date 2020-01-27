@@ -9,7 +9,7 @@ import Fade from "react-reveal/Fade";
 const Home = () => {
   return (
     <div>
-      <div className="header" style={{ minHeight: "100vh" }}>
+      <div className="header margin-gap">
         <div className="header-container"></div>
         <Fade left>
           <h1 className="center">DwarfINC</h1>

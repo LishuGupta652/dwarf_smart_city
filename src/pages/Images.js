@@ -3,7 +3,7 @@ import { Carousel } from "react-materialize";
 
 const Services = () => {
   return (
-    <div className="container" style={{ minHeight: "100vh" }}>
+    <div className="container margin-gap">
       <h2 className="green-text center">Images</h2>
 
       <div>
