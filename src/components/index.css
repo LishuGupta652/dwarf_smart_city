@@ -5,6 +5,16 @@
 .margin-gap {
   min-height: 600px;
 }
+.header {
+  margin-top: 0px !important;
+  padding: 0;
+  background-color: #34495e;
+  padding: 60px 0px;
+  color: white;
+}
+.react-reveal.center {
+  margin-top: 0;
+}
 @media (max-width: 768px) {
   .card-contact p {
     font-size: 18px;

@@ -31,6 +31,7 @@ const Home = () => {
           />
         </div>
       </div>
+      <div className="container"></div>
       <About />
     </div>
   );

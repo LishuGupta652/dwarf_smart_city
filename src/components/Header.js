@@ -17,7 +17,6 @@ const Navigation = styled.header`
   padding: 0px 100px 0;
   height: 80px;
   background-color: blue;
-  margin-bottom: 60px;
   background: #f8f8f8;
 
   .logo a {
