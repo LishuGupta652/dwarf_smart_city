@@ -18,7 +18,7 @@ const Contact = () => {
                     frameBorder="0"
                     style={{ width: "100%" }}
                   ></iframe>
-                  <span class="black-text card-title">Card Title</span>
+                  <span class="black-text card-title">Location</span>
                 </div>
 
                 <div class="card-content center">
