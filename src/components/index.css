@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .card-contact p {
   font-size: 25px;
 }
@@ -98,4 +102,35 @@
   .block-2 {
     flex-direction: column-reverse;
   }
+}
+
+.details {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details .wrapper {
+  color: white;
+  width: 60%;
+  font-size: 18px;
+}
+.details .wrapper h3 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.details-one {
+  background-color: #121212;
+}
+
+.details-two {
+  background-color: #ff7675;
+  color: #121212;
+}
+.details-two .wrapper {
+  color: #121212;
+}
+.details-three {
+  background-color: #a29bfe;
 }
