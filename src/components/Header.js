@@ -96,11 +96,6 @@ const Navigation = styled.header`
       padding-left: 15px;
       padding-top: 0px !important;
     }
-    .logo a {
-      p {
-        height: 10px;
-      }
-    }
   }
   @media only screen and (max-width: 600px) {
     height: auto;

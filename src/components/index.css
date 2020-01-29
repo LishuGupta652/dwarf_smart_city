@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 .card-contact p {
   font-size: 25px;
 }
@@ -137,5 +133,13 @@
 @media (max-width: 900px) {
   .details .wrapper {
     width: 80%;
+  }
+}
+@media (max-width: 450px) {
+  .details {
+    height: auto;
+  }
+  .details .wrapper {
+    width: 95%;
   }
 }
