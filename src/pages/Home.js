@@ -3,7 +3,7 @@ import { Carousel } from "react-materialize";
 
 import About from "../components/About";
 import Footer from "../components/Footer";
-
+import Container from "../components/Container";
 import Fade from "react-reveal/Fade";
 
 const Home = () => {
@@ -31,7 +31,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="container"></div>
+      <Container />
       <About />
     </div>
   );
