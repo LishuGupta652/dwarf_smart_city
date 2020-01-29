@@ -6,7 +6,7 @@ const Footer = () => {
       className="footer"
       style={{
         backgroundColor: "#121212",
-        height: "100vh",
+        height: "500px",
         width: "100%",
         color: "#fff",
         position: "relative",
