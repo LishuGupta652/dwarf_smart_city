@@ -134,3 +134,8 @@
 .details-three {
   background-color: #a29bfe;
 }
+@media (max-width: 900px) {
+  .details .wrapper {
+    width: 80%;
+  }
+}
