@@ -1,14 +1,16 @@
 import React from "react";
 import containerImage from "../img.jpg";
 import gardenImage from "../img-2.jpg";
+import bicycleImage from "../img-3.jpg";
+import parkingImage from "../img-4.jpg";
 
 import Fade from "react-reveal/Fade";
 const Container = () => {
   return (
     <div>
-      <div className="block">
+      <div className="block absolute">
         <div className="one">
-          <h1>PRODUCTS</h1>
+          <h1 className="heading-product">PRODUCTS</h1>
           <Fade left>
             <p>Smart Containers</p>
           </Fade>
@@ -28,7 +30,27 @@ const Container = () => {
           </Fade>
         </div>
       </div>
+      <div className="block block-3">
+        <div className="one">
+          <Fade left>
+            <h2>E BICYCLE</h2>
+          </Fade>
+        </div>
+        <div className="two">
+          <img src={bicycleImage} />
+        </div>
+      </div>
+      <div className="block block-4">
+        <div className="two">
+          <img src={parkingImage} />
+        </div>
 
+        <div className="one">
+          <Fade right>
+            <h2>Smart Parking</h2>
+          </Fade>
+        </div>
+      </div>
       <div className="details details-one">
         <div className="wrapper">
           <div>
